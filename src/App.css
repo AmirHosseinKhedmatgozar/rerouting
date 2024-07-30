@@ -1,0 +1,48 @@
+/* Calculator */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 800;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: rgb(158, 190, 180);
+  width: 600px;
+  height: 500px;
+}
+.item {
+  display: flex;
+  padding: 30px;
+}
+input {
+  margin-left: 10px;
+}
+h3 {
+  color: rgb(103, 79, 79);
+  font-weight: 600;
+  font-size: 18px;
+}
+select {
+  width: 150px;
+  margin-left: 10px;
+  height: 23px;
+}
+button {
+  padding: 8px 5px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 60px;
+}
+.btn {
+  padding: 0px 30px;
+}
